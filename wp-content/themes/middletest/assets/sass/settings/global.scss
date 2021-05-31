@@ -64,16 +64,15 @@ $baseline-unit: 10px;
   --definition-term--font-family: var(--global--font-primary);
 
   /* Colors */
-  --global--color-black: #000;
-  --global--color-dark-gray: #28303d;
-  --global--color-gray: #39414d;
-  --global--color-light-gray: #f0f0f0;
+  --global--color-dark-gray: #818181;
+  --global--color-gray: #9b9b9b;
+  --global--color-light-gray: #eceaed;
   --global--color-green: #d1e4dd;
-  --global--color-blue: #d1dfe4;
-  --global--color-purple: #d1d1e4;
-  --global--color-red: #e4d1d1;
-  --global--color-orange: #e4dad1;
-  --global--color-yellow: #eeeadd;
+  --global--color-dark-green: #288830;
+  --global--color-blue: #09395f;
+  --global--color-dark-blue: #052e4e;
+  --global--color-orange: #f75524;
+  --global--color-dark-orange: #d33808;
   --global--color-white: #fff;
   --global--color-white-50: rgba(255, 255, 255, 0.5); // Used for disabled buttons
   --global--color-white-90: rgba(255, 255, 255, 0.9); // Used in form fields.

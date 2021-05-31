@@ -1,4 +1,4 @@
-
+@import "~bootstrap/scss/bootstrap";
 /**
  * SETTINGS
  * File-header..........The file header for the themes style.css file.
@@ -94,7 +94,7 @@
 //@import "04-elements/forms";
 //@import "04-elements/media";
 //@import "04-elements/misc";
-//@import "04-elements/links";
+@import "elements/links";
 //
 ///* Category 05 is all about adjusting the default block styles to the given layout. I only added three blocks as examples. */
 //@import "05-blocks/blocks";
@@ -119,3 +119,4 @@
 //@import "07-utilities/color-palette";
 //@import "07-utilities/measure";
 //@import "07-utilities/ie";
+@import "settings/reset";

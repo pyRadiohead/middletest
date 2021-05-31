@@ -1,8 +1,51 @@
 h1 {
   color: red!important;
 }
-.image-relative-pass-test{
-  width: 400px;
-  height: 400px;
-  background: url("../images/table-with-bonuses.png");
+.background-curves{
+  background: url("../images/curves.png") center center no-repeat;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 540px;
+  z-index: 20;
+}
+/* header styles*/
+.site-header{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navigation styles */
+nav.primary-navigation{
+  display: flex;
+  flex-direction: column;
+  z-index: 50;
+
+  .primary-menu-container{
+    order: 2;
+    ul.menu-wrapper{
+      li:not(:last-child){
+        border-right: solid 1px darkgrey;
+      }
+    }
+
+  }
+  .top-menu-container{
+    order: 1;
+    ul.menu-wrapper{
+      float: right;
+      background: var(--global--color-light-gray);
+    }
+  }
+  ul.menu-wrapper{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    li{
+      padding:0 10px;
+    }
+  }
+
 }
